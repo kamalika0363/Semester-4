@@ -1,3 +1,4 @@
+print("===========================================")
 print("Welcome to FCFS & SJF Scheduling Algorithm")
 print("===========================================")
 n = int(input("Enter the number of processes:"))
