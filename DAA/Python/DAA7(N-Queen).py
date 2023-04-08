@@ -41,7 +41,7 @@ if queen(board, 0):
     print("The solution is:")
     print("===========================================")
     for i in range(n):
-        print([board[i][j])
+        print([board[i])
     print("===========================================")
 else:
     print("===========================================")
