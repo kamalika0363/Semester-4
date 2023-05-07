@@ -29,7 +29,7 @@ void bresenham(int x1, int y1, int x2, int y2)
 main()
 {
     int gd = DETECT, gm;
-    initgraph(&gd, &gm, "");
+    initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
     int x1 = 100, y1 = 100, x2 = 300, y2 = 200;
     bresenham(x1, y1, x2, y2);
     getch();
