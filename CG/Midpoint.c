@@ -1,11 +1,11 @@
 #include<graphics.h>
 #include<conio.h>
 #include<stdio.h>
-void main()
+main()
 {
 int x,y,x_mid,y_mid,radius,dp;
 int g_mode,g_driver=DETECT;
-clrscr();
+
 initgraph(&g_driver,&g_mode,"C:\\TURBOC3\\BGI");
 printf("\nenter the coordinates= ");
 scanf("%d %d",&x_mid,&y_mid);
