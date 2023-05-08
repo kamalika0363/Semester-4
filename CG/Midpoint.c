@@ -1,13 +1,13 @@
 #include<graphics.h>
 #include<conio.h>
 #include<stdio.h>
-main()
+int main()
 {
 int x,y,x_mid,y_mid,radius,dp;
 int g_mode,g_driver=DETECT;
 
 initgraph(&g_driver,&g_mode,"C:\\TURBOC3\\BGI");
-printf("\nenter the coordinates= ");
+printf("\n enter the coordinates= ");
 scanf("%d %d",&x_mid,&y_mid);
 printf("\n now enter the radius =");
 scanf("%d",&radius);
@@ -34,4 +34,6 @@ dp+=(2*x)-(2*y)+1;
 x=x+1;
 }while(y>x);
 getch();
+closegraph();
+return 0;
 }
