@@ -7,7 +7,7 @@ main() {
  float angle,radians,s,c;
  int x1_new,y1_new,x2_new,y2_new;
  int gd = DETECT, gm;
- initgraph(&gd, &gm, "");
+ initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
  printf("Enter coordinates of line\n");
  scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
  line(x1, y1, x2, y2);
