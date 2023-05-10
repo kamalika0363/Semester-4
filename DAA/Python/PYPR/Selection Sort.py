@@ -5,7 +5,7 @@ def selectionSort(arr):
             if ar[mini] > arr[j]:
                 mini = j
         arr[i], arr[mini] = arr[mini], arr[i]
-    return ar
+    return arr
 
 
 print("=====================================")
